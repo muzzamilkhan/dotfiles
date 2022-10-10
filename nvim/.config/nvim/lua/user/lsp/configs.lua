@@ -10,7 +10,8 @@ local servers = {
   "sumneko_lua", 
   "tsserver", 
   "intelephense",
-  "prismals"
+  "prismals",
+  "marksman"
 }
 
 lsp_installer.setup({
