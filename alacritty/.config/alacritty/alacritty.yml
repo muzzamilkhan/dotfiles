@@ -11,6 +11,6 @@ window:
 font:
   normal:
     family: "JetBrainsMono Nerd Font Mono"
-    style: Regular
+    style: ExtraLight
   size: 18.0
   use_thin_strokes: true
