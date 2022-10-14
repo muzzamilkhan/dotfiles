@@ -41,7 +41,6 @@ packer.init({
 -- Install your plugins here
 return packer.startup(function(use)
 	-- My plugins here
-
   use("windwp/nvim-autopairs") -- Autopairs, integrates with both cmp and treesitter
 	use("wbthomason/packer.nvim") -- Have packer manage itself
 	use("nvim-lua/plenary.nvim") -- Useful lua functions used by lots of plugins
@@ -60,8 +59,7 @@ return packer.startup(function(use)
 	use("folke/which-key.nvim")
 
 	-- Colorschemes
-	use("folke/tokyonight.nvim")
-	use("lunarvim/darkplus.nvim")
+	use("nanotech/jellybeans.vim")
 
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp") -- The completion plugin
