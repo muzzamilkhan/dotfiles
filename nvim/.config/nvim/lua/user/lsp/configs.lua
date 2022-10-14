@@ -5,13 +5,13 @@ end
 
 local lspconfig = require("lspconfig")
 
-local servers = { 
-  "jsonls", 
-  "sumneko_lua", 
-  "tsserver", 
-  "intelephense",
-  "prismals",
-  "marksman"
+local servers = {
+	"jsonls",
+	"sumneko_lua",
+	"tsserver",
+	"intelephense",
+	"prismals",
+	"marksman",
 }
 
 lsp_installer.setup({
