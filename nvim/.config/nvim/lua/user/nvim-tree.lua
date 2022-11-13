@@ -59,7 +59,7 @@ nvim_tree.setup({
 		exclude = { ".env*" },
 	},
 	view = {
-		width = 50,
+		width = 30,
 		side = "left",
 		mappings = {
 			list = {

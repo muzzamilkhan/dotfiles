@@ -60,6 +60,7 @@ return packer.startup(function(use)
 
 	-- Colorschemes
 	use("nanotech/jellybeans.vim")
+	use("folke/tokyonight.nvim")
 
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp") -- The completion plugin
