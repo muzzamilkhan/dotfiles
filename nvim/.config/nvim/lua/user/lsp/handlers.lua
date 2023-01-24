@@ -67,7 +67,7 @@ local function lsp_keymaps(bufnr)
 	vim.api.nvim_buf_set_keymap(bufnr, "n", "<C-k>", "<cmd>lua vim.lsp.buf.signature_help()<CR>", opts)
 
   -- vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>f", "<cmd>lua vim.diagnostic.open_float()<CR>", opts)
-	-- vim.api.nvim_buf_set_keymap(bufnr, "n", "gl",	'<cmd>lua vim.diagnostic.open_float({ border = "rounded" })<CR>',	opts)
+	vim.api.nvim_buf_set_keymap(bufnr, "n", "gl",	'<cmd>lua vim.diagnostic.open_float({ border = "rounded" })<CR>',	opts)
 	vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>dp", '<cmd>lua vim.diagnostic.goto_prev({ border = "rounded" })<CR>', opts)
 	vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>dn", '<cmd>lua vim.diagnostic.goto_next({ border = "rounded" })<CR>', opts)
 	vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>dl", '<cmd>Telescope diagnostics<CR>', opts)

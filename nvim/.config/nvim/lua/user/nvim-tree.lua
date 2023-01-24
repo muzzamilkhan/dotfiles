@@ -55,7 +55,7 @@ nvim_tree.setup({
 	},
 	filters = {
 		dotfiles = false,
-		custom = { "^\\.git", "^\\.vscode", "^\\vendor" },
+		custom = { "^\\.git", "^\\vendor" },
 		exclude = { ".env*" },
 	},
 	view = {

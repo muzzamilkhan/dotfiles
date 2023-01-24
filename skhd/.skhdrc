@@ -49,7 +49,7 @@ alt - l : yabai -m space --layout float
 alt - s : yabai -m space --layout stack
 
 # cycle through stack windows
-alt - p : yabai -m window --focus stack.next || yabai -m window --focus south
+alt - m : yabai -m window --focus stack.next || yabai -m window --focus south
 alt - n : yabai -m window --focus stack.prev || yabai -m window --focus north
 
 # close focused window

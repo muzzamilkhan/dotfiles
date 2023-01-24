@@ -12,9 +12,7 @@ font:
   normal:
     family: "JetBrainsMono Nerd Font Mono"
     style: Thin
-  size: 20.0
-  use_thin_strokes: true
-
+  size: 18.0
 
 colors:
   # Default colors
