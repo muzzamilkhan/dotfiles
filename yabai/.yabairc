@@ -43,6 +43,7 @@ yabai -m rule --add app='^1Password$' manage=off
 yabai -m rule --add app='^Meta' manage=off
 yabai -m rule --add app='^Kap' manage=off
 yabai -m rule --add app='^Finder$' manage=off
+yabai -m rule --add app='^Notes$' manage=off
 yabai -m rule --add title='Preferences$' manage=off
 
 # float settings windows
