@@ -1,5 +1,8 @@
 live_config_reload: true
 
+key_bindings:
+  - { key: J, mods: Command, chars: "\x02\x54" }
+
 window:
   opacity: 1.00
   padding:

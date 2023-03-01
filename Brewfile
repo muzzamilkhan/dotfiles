@@ -1,46 +1,42 @@
 tap "cmacrae/formulae"
+tap "epk/epk"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "koekeishiya/formulae"
+tap "osx-cross/arm"
+tap "osx-cross/avr"
+tap "planetscale/tap"
+tap "qmk/qmk"
+tap "shivammathur/php"
 tap "strongdm/comply"
-# Python code formatter
+brew "bat"
 brew "black"
-# Simple, fast and user-friendly alternative to find
+brew "exa"
 brew "fd"
-# Distributed revision control system
+brew "fzf"
 brew "git"
-# Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Simple terminal UI for git commands
 brew "lazygit"
-# Package manager for the Lua programming language
+brew "lua-language-server"
 brew "luarocks"
-# Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Highly capable, feature-rich programming language
 brew "perl"
-# General-purpose scripting language
-brew "php"
-# General-purpose scripting language
-brew "php@7.4"
-# Implementation of Telnet and SSH
+brew "php", link: false
 brew "putty"
-# Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
-# Opinionated Lua code formatter
 brew "stylua"
-# Terminal multiplexer
+brew "tldr"
 brew "tmux"
-# Display directories as trees (with optional color/HTML output)
 brew "tree"
-# Internet file retriever
 brew "wget"
-# Simple hotkey-daemon for macOS.
+brew "zoxide"
 brew "koekeishiya/formulae/skhd"
-# A tiling window manager for macOS based on binary space partitioning.
 brew "koekeishiya/formulae/yabai"
+brew "planetscale/tap/pscale"
+brew "shivammathur/php/php@7.3", link: true
+cask "alacritty"
+cask "font-sf-mono-nerd-font"
