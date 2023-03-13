@@ -28,6 +28,9 @@ vim.cmd [[
     autocmd!
     autocmd User AlphaReady set showtabline=0 | autocmd BufUnload <buffer> set showtabline=2
   augroup end
+
+  augroup _telescope
+    autocmd!
+    autocmd VimEnter * silent!lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})
+  augroup end
 ]]
-
-

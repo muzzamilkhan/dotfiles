@@ -90,6 +90,7 @@ return packer.startup(function(use)
   use("kdheepak/lazygit.nvim")
 
   use("vimwiki/vimwiki")
+  use("gpanders/editorconfig.nvim")
 
   -- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
