@@ -1,7 +1,11 @@
+# Apt Packages
+```
 apt insatll i3
-
 apt install brew
+```
 
+# Brew Packages
+```
 brew "fd"
 brew "exa"
 brew "fzf"
@@ -19,15 +23,15 @@ brew "zoxide"
 cask "alacritty"
 cask "nerd-font"
 tap "strongdm/comply"
-
-
-NeoVim Plugins:
 ```
-  use("windwp/nvim-autopairs") -- Autopairs, integrates with both cmp and treesitter
-	use("wbthomason/packer.nvim") -- Have packer manage itself
-	use("nvim-lua/plenary.nvim") -- Useful lua functions used by lots of plugins
-	use("numToStr/Comment.nvim")
-	use("JoosepAlviste/nvim-ts-context-commentstring")
+
+# NeoVim Plugins:
+```
+use("windwp/nvim-autopairs") -- Autopairs, integrates with both cmp and treesitter
+use("wbthomason/packer.nvim") -- Have packer manage itself
+use("nvim-lua/plenary.nvim") -- Useful lua functions used by lots of plugins
+use("numToStr/Comment.nvim")
+use("JoosepAlviste/nvim-ts-context-commentstring")
 	use("kyazdani42/nvim-web-devicons")
 	use("kyazdani42/nvim-tree.lua")
 	use("akinsho/bufferline.nvim")
