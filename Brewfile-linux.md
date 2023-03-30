@@ -1,3 +1,7 @@
+apt insatll i3
+
+apt install brew
+
 brew "fd"
 brew "exa"
 brew "fzf"
@@ -18,6 +22,7 @@ tap "strongdm/comply"
 
 
 NeoVim Plugins:
+```
   use("windwp/nvim-autopairs") -- Autopairs, integrates with both cmp and treesitter
 	use("wbthomason/packer.nvim") -- Have packer manage itself
 	use("nvim-lua/plenary.nvim") -- Useful lua functions used by lots of plugins
@@ -66,4 +71,4 @@ NeoVim Plugins:
   use("kdheepak/lazygit.nvim")
 
   use("gpanders/editorconfig.nvim")
-
+```
