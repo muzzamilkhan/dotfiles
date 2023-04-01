@@ -1,0 +1,46 @@
+
+windwp/nvim-autopairs
+wbthomason/packer.nvim
+nvim-lua/plenary.nvim
+numToStr/Comment.nvim
+JoosepAlviste/nvim-ts-context-commentstring
+kyazdani42/nvim-web-devicons
+kyazdani42/nvim-tree.lua
+akinsho/bufferline.nvim
+moll/vim-bbye
+nvim-lualine/lualine.nvim
+akinsho/toggleterm.nvim
+ahmedkhalf/project.nvim
+lewis6991/impatient.nvim
+lukas-reineke/indent-blankline.nvim
+goolord/alpha-nvim
+folke/which-key.nvim
+
+-- Colorschemes
+folke/tokyonight.nvim
+
+-- completion plugins
+hrsh7th/nvim-cmp
+hrsh7th/cmp-buffer
+hrsh7th/cmp-path
+saadparwaiz1/cmp_luasnip
+hrsh7th/cmp-nvim-lsp
+hrsh7th/cmp-nvim-lua
+
+
+-- LSP
+neovim/nvim-lspconfig
+williamboman/nvim-lsp-installer
+jose-elias-alvarez/null-ls.nvim
+
+-- Telescope
+nvim-telescope/telescope.nvim
+
+-- Treesitter
+nvim-treesitter/nvim-treesitter
+
+-- Git
+lewis6991/gitsigns.nvim
+kdheepak/lazygit.nvim
+
+gpanders/editorconfig.nvim
